@@ -1,0 +1,104 @@
+
+
+.jumbotron {
+    background-image: url(../images/sv\ jumbo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.jumbotron h1 {
+    color: white;
+    text-shadow: 0 0 10px maroon, 0 0 10px #0000FF;
+    font-family: 'Zen Dots', cursive;
+    text-align: center;
+    text-align: flex-end;
+}
+
+.opentext p {
+    font-size: 18pt;
+}
+.opentext h1 {
+    color: maroon;
+    text-shadow: 0 0 2px gold ;
+}
+
+.carousel-item {
+    border-radius: 10px;
+}
+
+.carousel-inner h4{
+    color: #C7FF14;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 2px black;
+}
+.carousel-inner p{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 2px black;
+}
+
+.column1 {
+    background-image: url(/images/PokemonSV_featureart2_C_RGB.jpg);
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height: 300px; 
+}
+
+  .column {
+    background-image: url(/images/picnic.jpg);
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height: 300px;
+  }
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.star {
+    background-image: url(/images/star.webp);
+    background-size: cover;
+    float: center;
+    width: 50%;
+    height: 300px;
+}
+.star2 {
+    background-image: url(/images/geeta.avif);
+    background-size: cover;
+    float: center;
+    width: 50%;
+    height: 300px;
+}
+
+
+.footer img {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+  }
+
+  @media (max-width : 100000px) {
+    body {
+      margin: 30vh;
+    }
+  }
+  @media (max-width: 1400px ) {
+    body {
+      margin: 20vh;
+    }
+  }
+  @media (max-width: 1024px ) {
+    body {
+      margin: 5vh;
+    }
+  }
+
